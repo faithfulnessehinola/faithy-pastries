@@ -1,0 +1,450 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.intro{
+    background-image: url(https://img.freepik.com/free-photo/juicy-cheeseburger-wooden-cutting-board_9975-24304.jpg?ga=GA1.1.1299918928.1726051754&semt=ais_hybrid);
+width: 100%; 
+min-height: 39rem; 
+background-size:cover; 
+background-position: center;
+margin: 0;
+}
+.navbar-light{
+    background-color: goldenrod !important;
+}
+.intro::before {
+    content: "";
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    background-color: rgba(0, 0, 0, 0.8); 
+    z-index: 0;
+}
+.intro > * {
+    position: relative;
+    z-index: 1;
+}
+.list{
+   display: flex; list-style: none; float: right; color: white; 
+}
+
+  @keyframes text {
+
+  0%{
+    transform: translateX(-100%)
+  }
+100%{
+    transform: translateX(0)
+}
+  }
+
+.intro1{
+    margin-top: 15rem; 
+    line-height: 5.5rem; 
+    font-size: 4rem; 
+    font-weight: bolder; 
+    font-family: serif; 
+    color:whitesmoke;
+ text-align: center;
+ animation: text 2s ease-out;
+}
+
+@media(max-width:540px){
+    .intro1{
+        text-align: center;
+       margin-top: 11rem;
+       font-size: 4rem;
+    }
+}
+
+@media(max-width:540px){
+    .contactbutton{
+        text-align: center;
+       margin-top: 2rem;
+    }
+}
+
+.contactbutton{
+    border: none; border-radius: 20px; 
+    padding: 0.8rem; background-color: goldenrod; 
+    color: black; margin-top: 2rem; font-weight: bold;
+}
+h4{
+    text-align: center;
+}
+.nav-link{
+    font-weight: bold; color:black !important;
+}
+a:hover{
+    text-decoration: underline;
+}
+.section2{
+    min-height: 39rem; margin: 0;
+    width: 100%; 
+    position: relative;
+   background-image: url(https://img.freepik.com/free-photo/digital-lavender-style-interior-design_23-2151561220.jpg?ga=GA1.2.1299918928.1726051754&semt=ais_hybrid-rr-similar);
+   background-size:cover; 
+background-position: center;
+}
+.section2::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 0;
+    background-color: rgba(0, 0, 0, 0.95); 
+   
+}
+
+.section2 > * {
+    position: relative;
+    z-index: 1;}
+
+.abouttext1{
+    color: goldenrod; font-family: sans-serif;  margin-top: 4rem; 
+    margin-left: 3rem;
+}
+@media(max-width:540px){
+    .abouttext1{
+        text-align: center;
+        margin-left: 0;
+    }
+}
+@media(max-width:540px){
+    .abouttext2{
+        text-align: center;
+       margin-right: 1.5rem;
+    }
+}
+.abouttext2{
+    color:white; font-family: sans-serif; 
+    margin-left: 1rem;
+    line-height: 1.5rem;
+}
+.contactp{
+    font-weight: bolder; margin-left: 3rem;
+}
+@media(max-width:540px){
+    .contactp{
+        text-align: center; margin-right: 3rem;
+      margin-bottom: 1rem;
+    }
+}
+.contactbutton2{
+    border: none; border-radius: 10px; 
+    padding: 0.5rem; 
+    background-color: goldenrod; 
+    color: black;
+}
+.contactbutton2:hover{
+    background-color: #b38d00;; 
+}
+.img{
+    max-height: 25rem; border-radius: 15px; 
+    width:80%; margin-top: 5rem; margin-left: 3rem;
+}
+@media(max-width:950px){
+    .img{
+        width: 80%; border-radius:20px; 
+        max-height: 25rem; margin-top: 10rem;
+    }
+}
+
+
+
+@media(max-width:540px){
+    .img{
+        width: 50%; border-radius:20px; 
+       margin-top: 1rem;height: 8rem;
+       margin-bottom: 1rem;
+       margin-left: 5rem;
+    }
+}
+
+.section3{
+    min-height: 50rem; width: 100%; background-color: white;
+}
+.menutitle{
+    margin-top: 3rem; text-align: center;color: black;
+    text-decoration: underline;
+}
+.menu1{
+    height: 15rem; width: 90%; 
+    background-color: white; 
+    box-shadow: 1px 1px 10px rgba(0, 0, 0,0.7 );
+    margin-top: 2rem; 
+    border-radius: 10px 10px 0px 0px;
+    animation-name: animate;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.menu1:hover{
+    padding: 1px;
+  border: 1px solid goldenrod;
+}
+@media(max-width:540px){
+    .menu1{
+        width: 70%; margin: auto; border-radius: 10px 10px 0px 0px; 
+        margin-top: 2rem; margin-bottom: 1rem;
+    }
+}
+@media(min-width:750px){
+    .menu1{
+        width: 85%; margin: auto; border-radius: 10px 10px 0px 0px; 
+        margin-top: 2rem; margin-bottom: 1rem;
+    }
+}
+
+.img1{
+   width: 100%; border-radius: 10px 10px 0px 0px; max-height: 10rem;
+}
+.img2{
+    width: 100%; border-radius: 10px 10px 0px 0px; height: 10rem;
+ }
+ .img3{
+    width: 100%; border-radius: 10px 10px 0px 0px; max-height: 10rem;
+ }
+ .img4{
+    width: 100%; border-radius: 10px 10px 0px 0px; height: 10rem;
+ }
+ .img5{
+    width: 100%; border-radius: 10px 10px 0px 0px; max-height: 10rem;
+ }
+.order1{
+     margin-top: 0.5rem; text-align: center; width: 6rem;
+      font-size: 14px; background-color: black; color:goldenrod;
+      padding: 0.4rem;  border-radius: 20px; margin-left: 4.2rem;
+}
+
+@media(max-width:350px){
+    .order1{
+        margin-left: 6rem;
+    }
+}
+
+
+.price1{
+    margin-top: 0.6rem; text-align: center; 
+     font-size: 14px; width: ;
+}
+.lorem{
+    display: flex; justify-content: space-between; margin-left: 1rem; 
+    margin-right: 1rem;
+}
+
+
+.section4{
+    width: 100%; min-height: 60rem; color: rgb(212, 210, 210);
+    background-color:black; padding-top: 5rem;
+  margin: auto;
+}
+.reserve{
+color: goldenrod;
+ margin-top: rem; 
+ font-family: sans-serif;
+ margin-bottom: 1rem;
+}
+.submit{
+    padding: 0.5rem; background-color: goldenrod; 
+    color: black; margin: auto; border: none;
+    border-radius: 5px; width: 10%;
+}
+
+@media(max-width:540px){
+    .submit{
+        width: 30%;
+    }
+}
+.submi{
+   text-align: center;
+}
+
+
+label{
+    margin: auto; display: block;
+    text-align: center;
+}
+
+.input-container{
+   width: 30%; border-radius: 5px; padding: 0.5rem;
+  border: 1px solid goldenrod;
+  background-color:black;
+  color: white;
+ text-align: center;
+}
+
+@media(max-width:950px){
+    .input-container{
+        width: 70%;
+    }
+}
+
+.form-container{
+    margin: auto;
+    color:grey
+    width: 30%;
+ text-align: center;
+}
+input[type="date"],
+input[type="time"] {
+    color: gray
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator,
+input[type="time"]::-webkit-calendar-picker-indicator {
+    filter: invert(100%);
+}
+
+.section5{
+    min-height: 25rem; background-color: white;
+    padding-top: 3.5rem;
+}
+.faq{
+    text-align: center;
+}
+
+.accordion-button:focus{
+    border: none; background-color:white; color: black;
+}
+.accordion-button{
+    background-color: white; color: black; border-color: black !important;
+}
+.custom-accordion-button {
+    background-color: white!important; 
+    color: black !important; 
+    
+    border: none;
+  }
+
+  .custom-accordion-button:focus{
+    box-shadow: 0 0 0 0.3px gold !important;
+    background-color: black !important;
+    color: white !important;
+  }
+  
+  .accordion-body{
+    color: goldenrod !important;
+  }
+
+  .accordion-flush{
+    border: 1px solid rgb(219, 216, 216);
+  }
+footer{
+    background-color: black; 
+    color: goldenrod; margin-top: 4rem;
+    min-height: 13rem;
+}
+.footer1{
+    margin-left: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.footerlink{
+color: goldenrod; text-decoration: none;
+}
+
+.footerlink:hover{
+    color: rgb(182, 144, 50); text-decoration: underline;
+}
+
+.new{
+    margin-left: 3rem;
+}
+a{
+   margin-left: 1rem;
+   font-size: large;
+}
+.fa-square-x-twitter{
+    color: white;
+}
+.fa-square-facebook{
+    color: white;
+}
+.fa-square-instagram{
+    color: white;
+}
+.fa-tiktok{
+    color: white;
+}
+ul{
+    list-style: none; 
+    display: flex;
+    justify-content: space-evenly;
+}
+@media (min-width:750px){
+    ul{
+        display: flex;
+      margin-right: 2rem;
+    }
+}
+@media (max-width:540px){
+    .footer1{
+       text-align: center;
+       margin-left: 0;
+    }
+}
+@media (max-width:540px){
+    ul{
+        text-align: center;
+        margin-right: 2rem;
+        margin-top: 2rem;
+        display: block;
+    }
+}
+@media (max-width:540px){
+    .new{
+        text-align: center;
+   display: block;
+   justify-content: center;
+   margin-left: 0;
+    }
+}
+
+.text{
+    text-align: center;
+}
+
+@media(max-width:950px){
+    .text{
+        text-align: center;
+        margin-top: 3rem;
+    }
+}
+@media(max-width:540px){
+    .text{
+        text-align: center;
+        margin-top: 2rem;
+    }
+}
+
+.newsletter{
+    background-color: black; 
+    border: 1px solid grey;
+    padding: 0.5rem;
+}
+.footerbutton{
+    padding: 0.3rem; border-radius: 10px; 
+    background-color: goldenrod; 
+    color: black; border: none;
+}
+.news{
+   text-align: center;
+}
+.footer2{
+    text-align: center;
+    margin-top: 5rem;
+    color: white;
+}
+
+
